@@ -3,6 +3,11 @@ Cocos2D-Scrolling-Layers-and-Lists
 
 Cocos2D versions of scrolling layers and scrolling lists.
 
+Examples created by Brian Chu
+Modifications by Brian Chu (see individual file comments)
+Parts of original source created by Sangwoo Im.
+MakeGamesWith.Us
+
 For both projects, read the example files!
 
 FreeScrollingLayer Example shows you how to make a layer that pans (moves) in 2D and which has pinch zooming and double-tap zooming.
