@@ -5,7 +5,7 @@ Cocos2D versions of scrolling layers and scrolling lists.
 
 Examples created by Brian Chu
 Modifications by Brian Chu (see individual file comments)
-Parts of original source created by Sangwoo Im.
+Parts of original source created by Sangwoo Im and Jerrod Putnam.
 MakeGamesWith.Us
 
 For both projects, read the example files!
