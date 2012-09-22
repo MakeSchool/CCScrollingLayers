@@ -102,21 +102,21 @@
 }
 
 //added fix ****
-#ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
-- (CGPoint)convertTouchToNodeSpace:(UITouch *)touch
-{
-	CGPoint point = [touch locationInView: [touch view]];
-	point = [[CCDirector sharedDirector] convertToGL: point];
-	return [self convertToNodeSpace:ccp( point.x * CC_CONTENT_SCALE_FACTOR(), point.y * CC_CONTENT_SCALE_FACTOR())]; //point];
-}
-
-- (CGPoint)convertTouchToNodeSpaceAR:(UITouch *)touch
-{
-	CGPoint point = [touch locationInView: [touch view]];
-	point = [[CCDirector sharedDirector] convertToGL: point];
-	return [self convertToNodeSpaceAR:ccp( point.x * CC_CONTENT_SCALE_FACTOR(), point.y * CC_CONTENT_SCALE_FACTOR())];
-}
-#endif
+//#ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
+//- (CGPoint)convertTouchToNodeSpace:(UITouch *)touch
+//{
+//	CGPoint point = [touch locationInView: [touch view]];
+//	point = [[CCDirector sharedDirector] convertToGL: point];
+//	return [self convertToNodeSpace:ccp( point.x * CC_CONTENT_SCALE_FACTOR(), point.y * CC_CONTENT_SCALE_FACTOR())]; //point];
+//}
+//
+//- (CGPoint)convertTouchToNodeSpaceAR:(UITouch *)touch
+//{
+//	CGPoint point = [touch locationInView: [touch view]];
+//	point = [[CCDirector sharedDirector] convertToGL: point];
+//	return [self convertToNodeSpaceAR:ccp( point.x * CC_CONTENT_SCALE_FACTOR(), point.y * CC_CONTENT_SCALE_FACTOR())];
+//}
+//#endif
 //end added fix ****
 
 @end

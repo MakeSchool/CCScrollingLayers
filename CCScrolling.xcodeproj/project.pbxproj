@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3F907E3160A155D00BCAEFE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F907E2160A155D00BCAEFE /* Default-568h@2x.png */; };
 		D7777E3A15F04B3900844D4C /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = D7777E3915F04B3900844D4C /* block.png */; };
 		D7777E8D15F04BA600844D4C /* CCNode+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7777E7E15F04BA600844D4C /* CCNode+Autolayout.m */; };
 		D7777E8E15F04BA600844D4C /* Cocos2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7777E8015F04BA600844D4C /* Cocos2DViewController.m */; };
@@ -64,6 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3F907E2160A155D00BCAEFE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D7777E3915F04B3900844D4C /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
 		D7777E7D15F04BA600844D4C /* CCNode+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+Autolayout.h"; sourceTree = "<group>"; };
 		D7777E7E15F04BA600844D4C /* CCNode+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+Autolayout.m"; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 		DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E813B5024400931BF2 /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
 		DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
-		DCC1A0E313A94ED5005BD75D /* Scrolling-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrolling-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC1A0E313A94ED5005BD75D /* CCScrolling-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCScrolling-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC1A0F913A94ED5005BD75D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		DCC1A0FB13A94ED5005BD75D /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		DCC1A0FD13A94ED5005BD75D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
@@ -124,7 +126,7 @@
 		DCC1A10713A94ED5005BD75D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		DCC1A10913A94ED5005BD75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		DCC1A10A13A94ED5005BD75D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
-		DCC1A25A13A94EE6005BD75D /* Scrolling-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrolling-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC1A25A13A94EE6005BD75D /* CCScrolling-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCScrolling-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC1A26813A94EE6005BD75D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCC1A26B13A94EE6005BD75D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DCC1A26D13A94EE6005BD75D /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
@@ -226,8 +228,8 @@
 		DCC1A0E413A94ED5005BD75D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCC1A0E313A94ED5005BD75D /* Scrolling-iOS.app */,
-				DCC1A25A13A94EE6005BD75D /* Scrolling-Mac.app */,
+				DCC1A0E313A94ED5005BD75D /* CCScrolling-iOS.app */,
+				DCC1A25A13A94EE6005BD75D /* CCScrolling-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +252,7 @@
 		DCC1A0F813A94ED5005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D3F907E2160A155D00BCAEFE /* Default-568h@2x.png */,
 				DCC1A0F913A94ED5005BD75D /* Default.png */,
 				DCC1A0FB13A94ED5005BD75D /* fps_images.png */,
 				DCC1A0FD13A94ED5005BD75D /* Icon-72.png */,
@@ -349,9 +352,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCC1A0E213A94ED5005BD75D /* Scrolling-iOS */ = {
+		DCC1A0E213A94ED5005BD75D /* CCScrolling-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "Scrolling-iOS" */;
+			buildConfigurationList = DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "CCScrolling-iOS" */;
 			buildPhases = (
 				DCC1A0DF13A94ED5005BD75D /* Sources */,
 				DCC1A0E013A94ED5005BD75D /* Frameworks */,
@@ -361,14 +364,14 @@
 			);
 			dependencies = (
 			);
-			name = "Scrolling-iOS";
+			name = "CCScrolling-iOS";
 			productName = "Hello-World-iOS";
-			productReference = DCC1A0E313A94ED5005BD75D /* Scrolling-iOS.app */;
+			productReference = DCC1A0E313A94ED5005BD75D /* CCScrolling-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCC1A25913A94EE6005BD75D /* Scrolling-Mac */ = {
+		DCC1A25913A94EE6005BD75D /* CCScrolling-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCC1A38913A94EE7005BD75D /* Build configuration list for PBXNativeTarget "Scrolling-Mac" */;
+			buildConfigurationList = DCC1A38913A94EE7005BD75D /* Build configuration list for PBXNativeTarget "CCScrolling-Mac" */;
 			buildPhases = (
 				DCC1A25613A94EE6005BD75D /* Sources */,
 				DCC1A25713A94EE6005BD75D /* Frameworks */,
@@ -378,9 +381,9 @@
 			);
 			dependencies = (
 			);
-			name = "Scrolling-Mac";
+			name = "CCScrolling-Mac";
 			productName = "Hello-World-Mac";
-			productReference = DCC1A25A13A94EE6005BD75D /* Scrolling-Mac.app */;
+			productReference = DCC1A25A13A94EE6005BD75D /* CCScrolling-Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -391,7 +394,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "Scrolling" */;
+			buildConfigurationList = DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "CCScrolling" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -404,8 +407,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCC1A0E213A94ED5005BD75D /* Scrolling-iOS */,
-				DCC1A25913A94EE6005BD75D /* Scrolling-Mac */,
+				DCC1A0E213A94ED5005BD75D /* CCScrolling-iOS */,
+				DCC1A25913A94EE6005BD75D /* CCScrolling-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -431,6 +434,7 @@
 				D7CA460015F400B70064D293 /* block-hd.png in Resources */,
 				D7CA460515F406CE0064D293 /* mole-hd.png in Resources */,
 				D7CA463D15F422900064D293 /* Readme.md in Resources */,
+				D3F907E3160A155D00BCAEFE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +525,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
+				PRODUCT_NAME = "CCScrolling-iOS";
 			};
 			name = Debug;
 		};
@@ -532,6 +537,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
+				PRODUCT_NAME = "CCScrolling-iOS";
 			};
 			name = Release;
 		};
@@ -539,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
+				PRODUCT_NAME = "CCScrolling-Mac";
 			};
 			name = Debug;
 		};
@@ -546,13 +553,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
+				PRODUCT_NAME = "CCScrolling-Mac";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "Scrolling" */ = {
+		DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "CCScrolling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC1A0DD13A94EC0005BD75D /* Debug */,
@@ -561,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "Scrolling-iOS" */ = {
+		DCC1A25313A94ED7005BD75D /* Build configuration list for PBXNativeTarget "CCScrolling-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC1A25413A94ED7005BD75D /* Debug */,
@@ -570,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCC1A38913A94EE7005BD75D /* Build configuration list for PBXNativeTarget "Scrolling-Mac" */ = {
+		DCC1A38913A94EE7005BD75D /* Build configuration list for PBXNativeTarget "CCScrolling-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC1A38A13A94EE7005BD75D /* Debug */,

@@ -28,7 +28,7 @@
 {
     self= [super init];
     
-    cellSize=size;
+    self.cellSize=size;
     arrayOfNodes=array;
     
     return self;
@@ -52,13 +52,35 @@
     SWTableViewCell *cell = [table dequeueCell];
     if (!cell) {
         cell = [WrapperCell new];
-        [cell addChild:[arrayOfNodes objectAtIndex:index]];
+        CCNode* node = [arrayOfNodes objectAtIndex:index];
+//        if (node.parent==nil)
+//        {
+            [cell addChild:node];
+//        }
+//        else
+//        {
+//            [node removeFromParentAndCleanup:YES];
+//            [cell addChild:node];
+//        }
 	}
     
     return cell;
     
     
 }
+
+//-(void) setCellSize:(CGSize)cellSze
+//{
+//    if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]
+//        && [[UIScreen mainScreen] scale] == 2.0)
+//    {
+//        //Retina
+//        cellSize=CGSizeMake(cellSze.width*2, cellSze.height*2);
+//    } else {
+//        // Not Retina
+//        cellSize=cellSze;
+//    }
+//}
 
 //method for SWTableViewDataSource
 -(NSUInteger)numberOfCellsInTableView:(SWTableView *)table {
