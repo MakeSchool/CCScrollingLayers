@@ -21,19 +21,20 @@ SWTableDataSourceWrapper* dataSource; //must be an instance variable
 {
 	if( (self=[super init] )) {
         
-        CGSize screenSize = [CCDirector sharedDirector].screenSize;
+        CGSize screenSize = [CCDirector sharedDirector].screenSize;        
         
         //set up some test sprites
         NSMutableArray* arrayOfSprites = [[NSMutableArray alloc] init];
         for(int i=0; i<10; i++)
         {
             CCSprite *testSprite = [CCSprite spriteWithFile:@"mole.png"];
+            NSLog(@"%f",testSprite.contentSize.height);
             testSprite.anchorPoint = CGPointZero;
             [arrayOfSprites addObject:testSprite];
         }
         
         //Size of one cell in the table
-        CGSize cellSize = CGSizeMake(screenSize.width/2.0, 200);
+        CGSize cellSize = CGSizeMake(screenSize.width, 200);
         
         //initialize the object that will feed data to our TableView
         dataSource = [[SWTableDataSourceWrapper alloc] initWithCellSize:cellSize andArrayOfCells:arrayOfSprites];
