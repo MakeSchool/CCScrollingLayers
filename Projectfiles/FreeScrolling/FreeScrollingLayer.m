@@ -272,15 +272,15 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
 {
     if ((self = [super init]))
 	{
-        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]
-            && [[UIScreen mainScreen] scale] == 2.0)
-        {
-            //Retina display (software end, applies to non-Retina display devices with iOS >5) - double the dimensions
-            viewSize = CGSizeMake(size.width*2, size.height*2);
-        } else {
-            // Not Retina
+//        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]
+//            && [[UIScreen mainScreen] scale] == 2.0)
+//        {
+//            //Retina display (software end, applies to non-Retina display devices with iOS >5) - double the dimensions
+//            viewSize = CGSizeMake(size.width*2, size.height*2);
+//        } else {
+//            // Not Retina
             viewSize = size;
-        }
+//        }
     
 
         zoomBouncing=false;

@@ -17,7 +17,7 @@ local config =
 	KKStartupConfig = 
 	{
 		-- load first scene from a class with this name, or from a Lua script with this name with .lua appended
-		FirstSceneClassName = "ScrollTableLayerExample",
+		FirstSceneClassName = "FreeScrollingLayerExample",
 
 		-- set the director type, and the fallback in case the first isn't available
 		DirectorType = DirectorType.DisplayLink,
@@ -37,7 +37,7 @@ local config =
 		GLViewNumberOfSamples = 0,
 
 		Enable2DProjection = NO,
-		EnableRetinaDisplaySupport = YES,
+		EnableRetinaDisplaySupport = NO,--YES,
 		EnableGLViewNodeHitTesting = NO,
 		EnableStatusBar = NO,
 
