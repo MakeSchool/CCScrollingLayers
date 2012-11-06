@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7EE4AFA1648B19600B193A2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AF51648B19600B193A2 /* background.png */; };
-		D7EE4AFB1648B19600B193A2 /* block-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AF61648B19600B193A2 /* block-hd.png */; };
-		D7EE4AFC1648B19600B193A2 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AF71648B19600B193A2 /* block.png */; };
-		D7EE4AFD1648B19600B193A2 /* mole-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AF81648B19600B193A2 /* mole-hd.png */; };
-		D7EE4AFE1648B19600B193A2 /* mole.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AF91648B19600B193A2 /* mole.png */; };
-		D7EE4B011648B1A800B193A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7EE4AFF1648B1A800B193A2 /* README.md */; };
-		D7EE4B601648B4C200B193A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B3E1648B4C200B193A2 /* AppDelegate.m */; };
-		D7EE4B611648B4C200B193A2 /* CCGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B411648B4C200B193A2 /* CCGestureRecognizer.m */; };
-		D7EE4B621648B4C200B193A2 /* FreeScrollingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B431648B4C200B193A2 /* FreeScrollingLayer.m */; };
-		D7EE4B631648B4C200B193A2 /* FreeScrollingLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B451648B4C200B193A2 /* FreeScrollingLayerExample.m */; };
-		D7EE4B6A1648B4C200B193A2 /* ScrollTableLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B4E1648B4C200B193A2 /* ScrollTableLayerExample.m */; };
-		D7EE4B861648B4E200B193A2 /* SWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B791648B4E200B193A2 /* SWMultiColumnTableView.m */; };
-		D7EE4B871648B4E200B193A2 /* SWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B7B1648B4E200B193A2 /* SWScrollView.m */; };
-		D7EE4B881648B4E200B193A2 /* SWSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B7D1648B4E200B193A2 /* SWSorting.m */; };
-		D7EE4B891648B4E200B193A2 /* SWTableDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B7F1648B4E200B193A2 /* SWTableDataSourceWrapper.m */; };
-		D7EE4B8A1648B4E200B193A2 /* SWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B811648B4E200B193A2 /* SWTableView.m */; };
-		D7EE4B8B1648B4E200B193A2 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE4B831648B4E200B193A2 /* SWTableViewCell.m */; };
+		D7E44CC41649BE5200DC7366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CA91649BE5200DC7366 /* AppDelegate.m */; };
+		D7E44CC51649BE5200DC7366 /* CCGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CAC1649BE5200DC7366 /* CCGestureRecognizer.m */; };
+		D7E44CC61649BE5200DC7366 /* FreeScrollingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CAE1649BE5200DC7366 /* FreeScrollingLayer.m */; };
+		D7E44CC71649BE5200DC7366 /* FreeScrollingLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CB01649BE5200DC7366 /* FreeScrollingLayerExample.m */; };
+		D7E44CC81649BE5200DC7366 /* ScrollTableLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CB21649BE5200DC7366 /* ScrollTableLayerExample.m */; };
+		D7E44CCB1649BE5200DC7366 /* SWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */; };
+		D7E44CCC1649BE5200DC7366 /* SWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBB1649BE5200DC7366 /* SWScrollView.m */; };
+		D7E44CCD1649BE5200DC7366 /* SWSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBD1649BE5200DC7366 /* SWSorting.m */; };
+		D7E44CCE1649BE5200DC7366 /* SWTableDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */; };
+		D7E44CCF1649BE5200DC7366 /* SWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CC11649BE5200DC7366 /* SWTableView.m */; };
+		D7E44CD01649BE5200DC7366 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CC31649BE5200DC7366 /* SWTableViewCell.m */; };
+		D7E44CD61649BE6400DC7366 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD11649BE6400DC7366 /* background.png */; };
+		D7E44CD71649BE6400DC7366 /* block-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD21649BE6400DC7366 /* block-hd.png */; };
+		D7E44CD81649BE6400DC7366 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD31649BE6400DC7366 /* block.png */; };
+		D7E44CD91649BE6400DC7366 /* mole-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD41649BE6400DC7366 /* mole-hd.png */; };
+		D7E44CDA1649BE6400DC7366 /* mole.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD51649BE6400DC7366 /* mole.png */; };
+		D7E44CDC1649BE6D00DC7366 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CDB1649BE6D00DC7366 /* README.md */; };
 		DC21B88B1511078F00FD4891 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8881511078F00FD4891 /* fps_images-hd.png */; };
 		DC21B88C1511078F00FD4891 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */; };
 		DC21B88D1511078F00FD4891 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21B88A1511078F00FD4891 /* fps_images.png */; };
@@ -64,34 +64,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7EE4AF51648B19600B193A2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		D7EE4AF61648B19600B193A2 /* block-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-hd.png"; sourceTree = "<group>"; };
-		D7EE4AF71648B19600B193A2 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
-		D7EE4AF81648B19600B193A2 /* mole-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mole-hd.png"; sourceTree = "<group>"; };
-		D7EE4AF91648B19600B193A2 /* mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole.png; sourceTree = "<group>"; };
-		D7EE4AFF1648B1A800B193A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		D7EE4B3D1648B4C200B193A2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7EE4B3E1648B4C200B193A2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7EE4B401648B4C200B193A2 /* CCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGestureRecognizer.h; sourceTree = "<group>"; };
-		D7EE4B411648B4C200B193A2 /* CCGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGestureRecognizer.m; sourceTree = "<group>"; };
-		D7EE4B421648B4C200B193A2 /* FreeScrollingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeScrollingLayer.h; sourceTree = "<group>"; };
-		D7EE4B431648B4C200B193A2 /* FreeScrollingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeScrollingLayer.m; sourceTree = "<group>"; };
-		D7EE4B441648B4C200B193A2 /* FreeScrollingLayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeScrollingLayerExample.h; sourceTree = "<group>"; };
-		D7EE4B451648B4C200B193A2 /* FreeScrollingLayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeScrollingLayerExample.m; sourceTree = "<group>"; };
-		D7EE4B4D1648B4C200B193A2 /* ScrollTableLayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTableLayerExample.h; sourceTree = "<group>"; };
-		D7EE4B4E1648B4C200B193A2 /* ScrollTableLayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTableLayerExample.m; sourceTree = "<group>"; };
-		D7EE4B781648B4E200B193A2 /* SWMultiColumnTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMultiColumnTableView.h; sourceTree = "<group>"; };
-		D7EE4B791648B4E200B193A2 /* SWMultiColumnTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMultiColumnTableView.m; sourceTree = "<group>"; };
-		D7EE4B7A1648B4E200B193A2 /* SWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScrollView.h; sourceTree = "<group>"; };
-		D7EE4B7B1648B4E200B193A2 /* SWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScrollView.m; sourceTree = "<group>"; };
-		D7EE4B7C1648B4E200B193A2 /* SWSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSorting.h; sourceTree = "<group>"; };
-		D7EE4B7D1648B4E200B193A2 /* SWSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSorting.m; sourceTree = "<group>"; };
-		D7EE4B7E1648B4E200B193A2 /* SWTableDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableDataSourceWrapper.h; sourceTree = "<group>"; };
-		D7EE4B7F1648B4E200B193A2 /* SWTableDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableDataSourceWrapper.m; sourceTree = "<group>"; };
-		D7EE4B801648B4E200B193A2 /* SWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableView.h; sourceTree = "<group>"; };
-		D7EE4B811648B4E200B193A2 /* SWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableView.m; sourceTree = "<group>"; };
-		D7EE4B821648B4E200B193A2 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
-		D7EE4B831648B4E200B193A2 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		D7E44CA81649BE5200DC7366 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E44CA91649BE5200DC7366 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E44CAB1649BE5200DC7366 /* CCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGestureRecognizer.h; sourceTree = "<group>"; };
+		D7E44CAC1649BE5200DC7366 /* CCGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGestureRecognizer.m; sourceTree = "<group>"; };
+		D7E44CAD1649BE5200DC7366 /* FreeScrollingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeScrollingLayer.h; sourceTree = "<group>"; };
+		D7E44CAE1649BE5200DC7366 /* FreeScrollingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeScrollingLayer.m; sourceTree = "<group>"; };
+		D7E44CAF1649BE5200DC7366 /* FreeScrollingLayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeScrollingLayerExample.h; sourceTree = "<group>"; };
+		D7E44CB01649BE5200DC7366 /* FreeScrollingLayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeScrollingLayerExample.m; sourceTree = "<group>"; };
+		D7E44CB11649BE5200DC7366 /* ScrollTableLayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTableLayerExample.h; sourceTree = "<group>"; };
+		D7E44CB21649BE5200DC7366 /* ScrollTableLayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTableLayerExample.m; sourceTree = "<group>"; };
+		D7E44CB81649BE5200DC7366 /* SWMultiColumnTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMultiColumnTableView.h; sourceTree = "<group>"; };
+		D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMultiColumnTableView.m; sourceTree = "<group>"; };
+		D7E44CBA1649BE5200DC7366 /* SWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScrollView.h; sourceTree = "<group>"; };
+		D7E44CBB1649BE5200DC7366 /* SWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScrollView.m; sourceTree = "<group>"; };
+		D7E44CBC1649BE5200DC7366 /* SWSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSorting.h; sourceTree = "<group>"; };
+		D7E44CBD1649BE5200DC7366 /* SWSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSorting.m; sourceTree = "<group>"; };
+		D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableDataSourceWrapper.h; sourceTree = "<group>"; };
+		D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableDataSourceWrapper.m; sourceTree = "<group>"; };
+		D7E44CC01649BE5200DC7366 /* SWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableView.h; sourceTree = "<group>"; };
+		D7E44CC11649BE5200DC7366 /* SWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableView.m; sourceTree = "<group>"; };
+		D7E44CC21649BE5200DC7366 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		D7E44CC31649BE5200DC7366 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		D7E44CD11649BE6400DC7366 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D7E44CD21649BE6400DC7366 /* block-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-hd.png"; sourceTree = "<group>"; };
+		D7E44CD31649BE6400DC7366 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		D7E44CD41649BE6400DC7366 /* mole-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mole-hd.png"; sourceTree = "<group>"; };
+		D7E44CD51649BE6400DC7366 /* mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole.png; sourceTree = "<group>"; };
+		D7E44CDB1649BE6D00DC7366 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DC21B8881511078F00FD4891 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
 		DC21B8891511078F00FD4891 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
 		DC21B88A1511078F00FD4891 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
@@ -176,32 +176,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7EE4B3F1648B4C200B193A2 /* FreeScrolling */ = {
+		D7E44CAA1649BE5200DC7366 /* FreeScrolling */ = {
 			isa = PBXGroup;
 			children = (
-				D7EE4B401648B4C200B193A2 /* CCGestureRecognizer.h */,
-				D7EE4B411648B4C200B193A2 /* CCGestureRecognizer.m */,
-				D7EE4B421648B4C200B193A2 /* FreeScrollingLayer.h */,
-				D7EE4B431648B4C200B193A2 /* FreeScrollingLayer.m */,
+				D7E44CAB1649BE5200DC7366 /* CCGestureRecognizer.h */,
+				D7E44CAC1649BE5200DC7366 /* CCGestureRecognizer.m */,
+				D7E44CAD1649BE5200DC7366 /* FreeScrollingLayer.h */,
+				D7E44CAE1649BE5200DC7366 /* FreeScrollingLayer.m */,
 			);
 			path = FreeScrolling;
 			sourceTree = "<group>";
 		};
-		D7EE4B731648B4E100B193A2 /* SWTable */ = {
+		D7E44CB31649BE5200DC7366 /* SWTable */ = {
 			isa = PBXGroup;
 			children = (
-				D7EE4B7E1648B4E200B193A2 /* SWTableDataSourceWrapper.h */,
-				D7EE4B7F1648B4E200B193A2 /* SWTableDataSourceWrapper.m */,
-				D7EE4B781648B4E200B193A2 /* SWMultiColumnTableView.h */,
-				D7EE4B791648B4E200B193A2 /* SWMultiColumnTableView.m */,
-				D7EE4B7A1648B4E200B193A2 /* SWScrollView.h */,
-				D7EE4B7B1648B4E200B193A2 /* SWScrollView.m */,
-				D7EE4B7C1648B4E200B193A2 /* SWSorting.h */,
-				D7EE4B7D1648B4E200B193A2 /* SWSorting.m */,
-				D7EE4B801648B4E200B193A2 /* SWTableView.h */,
-				D7EE4B811648B4E200B193A2 /* SWTableView.m */,
-				D7EE4B821648B4E200B193A2 /* SWTableViewCell.h */,
-				D7EE4B831648B4E200B193A2 /* SWTableViewCell.m */,
+				D7E44CB81649BE5200DC7366 /* SWMultiColumnTableView.h */,
+				D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */,
+				D7E44CBA1649BE5200DC7366 /* SWScrollView.h */,
+				D7E44CBB1649BE5200DC7366 /* SWScrollView.m */,
+				D7E44CBC1649BE5200DC7366 /* SWSorting.h */,
+				D7E44CBD1649BE5200DC7366 /* SWSorting.m */,
+				D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */,
+				D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */,
+				D7E44CC01649BE5200DC7366 /* SWTableView.h */,
+				D7E44CC11649BE5200DC7366 /* SWTableView.m */,
+				D7E44CC21649BE5200DC7366 /* SWTableViewCell.h */,
+				D7E44CC31649BE5200DC7366 /* SWTableViewCell.m */,
 			);
 			path = SWTable;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
-				D7EE4AFF1648B1A800B193A2 /* README.md */,
+				D7E44CDB1649BE6D00DC7366 /* README.md */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -294,14 +294,14 @@
 		DCC1A38C13A94F1A005BD75D /* Projectfiles */ = {
 			isa = PBXGroup;
 			children = (
-				D7EE4B441648B4C200B193A2 /* FreeScrollingLayerExample.h */,
-				D7EE4B451648B4C200B193A2 /* FreeScrollingLayerExample.m */,
-				D7EE4B3F1648B4C200B193A2 /* FreeScrolling */,
-				D7EE4B4D1648B4C200B193A2 /* ScrollTableLayerExample.h */,
-				D7EE4B4E1648B4C200B193A2 /* ScrollTableLayerExample.m */,
-				D7EE4B731648B4E100B193A2 /* SWTable */,
-				D7EE4B3D1648B4C200B193A2 /* AppDelegate.h */,
-				D7EE4B3E1648B4C200B193A2 /* AppDelegate.m */,
+				D7E44CAA1649BE5200DC7366 /* FreeScrolling */,
+				D7E44CAF1649BE5200DC7366 /* FreeScrollingLayerExample.h */,
+				D7E44CB01649BE5200DC7366 /* FreeScrollingLayerExample.m */,
+				D7E44CB11649BE5200DC7366 /* ScrollTableLayerExample.h */,
+				D7E44CB21649BE5200DC7366 /* ScrollTableLayerExample.m */,
+				D7E44CB31649BE5200DC7366 /* SWTable */,
+				D7E44CA81649BE5200DC7366 /* AppDelegate.h */,
+				D7E44CA91649BE5200DC7366 /* AppDelegate.m */,
 				DCC1A39413A94F1A005BD75D /* Resources */,
 				DCC1A3CF13A94F2C005BD75D /* Supporting Files */,
 			);
@@ -311,11 +311,11 @@
 		DCC1A39413A94F1A005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D7EE4AF51648B19600B193A2 /* background.png */,
-				D7EE4AF61648B19600B193A2 /* block-hd.png */,
-				D7EE4AF71648B19600B193A2 /* block.png */,
-				D7EE4AF81648B19600B193A2 /* mole-hd.png */,
-				D7EE4AF91648B19600B193A2 /* mole.png */,
+				D7E44CD11649BE6400DC7366 /* background.png */,
+				D7E44CD21649BE6400DC7366 /* block-hd.png */,
+				D7E44CD31649BE6400DC7366 /* block.png */,
+				D7E44CD41649BE6400DC7366 /* mole-hd.png */,
+				D7E44CD51649BE6400DC7366 /* mole.png */,
 				DCC1A39513A94F1A005BD75D /* config.lua */,
 			);
 			path = Resources;
@@ -426,12 +426,12 @@
 				DC21B88D1511078F00FD4891 /* fps_images.png in Resources */,
 				DC27219F160CADFF00D88944 /* Default-568h@2x.png in Resources */,
 				DC2721A8160CAFA600D88944 /* iTunesArtwork in Resources */,
-				D7EE4AFA1648B19600B193A2 /* background.png in Resources */,
-				D7EE4AFB1648B19600B193A2 /* block-hd.png in Resources */,
-				D7EE4AFC1648B19600B193A2 /* block.png in Resources */,
-				D7EE4AFD1648B19600B193A2 /* mole-hd.png in Resources */,
-				D7EE4AFE1648B19600B193A2 /* mole.png in Resources */,
-				D7EE4B011648B1A800B193A2 /* README.md in Resources */,
+				D7E44CD61649BE6400DC7366 /* background.png in Resources */,
+				D7E44CD71649BE6400DC7366 /* block-hd.png in Resources */,
+				D7E44CD81649BE6400DC7366 /* block.png in Resources */,
+				D7E44CD91649BE6400DC7366 /* mole-hd.png in Resources */,
+				D7E44CDA1649BE6400DC7366 /* mole.png in Resources */,
+				D7E44CDC1649BE6D00DC7366 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,17 +455,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
-				D7EE4B601648B4C200B193A2 /* AppDelegate.m in Sources */,
-				D7EE4B611648B4C200B193A2 /* CCGestureRecognizer.m in Sources */,
-				D7EE4B621648B4C200B193A2 /* FreeScrollingLayer.m in Sources */,
-				D7EE4B631648B4C200B193A2 /* FreeScrollingLayerExample.m in Sources */,
-				D7EE4B6A1648B4C200B193A2 /* ScrollTableLayerExample.m in Sources */,
-				D7EE4B861648B4E200B193A2 /* SWMultiColumnTableView.m in Sources */,
-				D7EE4B871648B4E200B193A2 /* SWScrollView.m in Sources */,
-				D7EE4B881648B4E200B193A2 /* SWSorting.m in Sources */,
-				D7EE4B891648B4E200B193A2 /* SWTableDataSourceWrapper.m in Sources */,
-				D7EE4B8A1648B4E200B193A2 /* SWTableView.m in Sources */,
-				D7EE4B8B1648B4E200B193A2 /* SWTableViewCell.m in Sources */,
+				D7E44CC41649BE5200DC7366 /* AppDelegate.m in Sources */,
+				D7E44CC51649BE5200DC7366 /* CCGestureRecognizer.m in Sources */,
+				D7E44CC61649BE5200DC7366 /* FreeScrollingLayer.m in Sources */,
+				D7E44CC71649BE5200DC7366 /* FreeScrollingLayerExample.m in Sources */,
+				D7E44CC81649BE5200DC7366 /* ScrollTableLayerExample.m in Sources */,
+				D7E44CCB1649BE5200DC7366 /* SWMultiColumnTableView.m in Sources */,
+				D7E44CCC1649BE5200DC7366 /* SWScrollView.m in Sources */,
+				D7E44CCD1649BE5200DC7366 /* SWSorting.m in Sources */,
+				D7E44CCE1649BE5200DC7366 /* SWTableDataSourceWrapper.m in Sources */,
+				D7E44CCF1649BE5200DC7366 /* SWTableView.m in Sources */,
+				D7E44CD01649BE5200DC7366 /* SWTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,12 +515,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
-				PRODUCT_NAME = "CCScrolling-iOS";
 			};
 			name = Debug;
 		};
@@ -528,12 +526,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
-				PRODUCT_NAME = "CCScrolling-iOS";
 			};
 			name = Release;
 		};
@@ -541,7 +537,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "CCScrolling-Mac";
 			};
 			name = Debug;
 		};
@@ -549,7 +544,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "CCScrolling-Mac";
 			};
 			name = Release;
 		};

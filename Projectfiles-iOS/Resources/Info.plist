@@ -37,9 +37,9 @@
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<dict>
-		<key>armv7</key>
-		<true/>
 		<key>accelerometer</key>
+		<true/>
+		<key>armv7</key>
 		<true/>
 		<key>opengles-2</key>
 		<true/>
