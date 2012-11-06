@@ -677,14 +677,16 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
         GLfloat planeLeft[]   = {1.0f, 0.0f, 0.0f, 0.0f};
         GLfloat planeRight[]  = {-1.0f, 0.0f, 0.0f, viewSize.width};
         
-        glClipPlanef(GL_CLIP_PLANE0, planeTop);
-        glClipPlanef(GL_CLIP_PLANE1, planeBottom);
-        glClipPlanef(GL_CLIP_PLANE2, planeLeft);
-        glClipPlanef(GL_CLIP_PLANE3, planeRight);
-        glEnable(GL_CLIP_PLANE0);
-        glEnable(GL_CLIP_PLANE1);
-        glEnable(GL_CLIP_PLANE2);
-        glEnable(GL_CLIP_PLANE3);
+        glScissor(0, 0, viewSize.height, viewSize.width);
+        //glEnable(GL_SCISSOR_TEST);
+//        glClipPlanef(GL_CLIP_PLANE0, planeTop);
+//        glClipPlanef(GL_CLIP_PLANE1, planeBottom);
+//        glClipPlanef(GL_CLIP_PLANE2, planeLeft);
+//        glClipPlanef(GL_CLIP_PLANE3, planeRight);
+//        glEnable(GL_CLIP_PLANE0);
+//        glEnable(GL_CLIP_PLANE1);
+//        glEnable(GL_CLIP_PLANE2);
+//        glEnable(GL_CLIP_PLANE3);
     }
 }
 
@@ -694,10 +696,11 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
     if(clipToBounds)
 	{
 		// Retract what's done in beforeDraw so that there's no side effect to other nodes.
-        glDisable(GL_CLIP_PLANE0);
-        glDisable(GL_CLIP_PLANE1);
-        glDisable(GL_CLIP_PLANE2);
-        glDisable(GL_CLIP_PLANE3);
+        //GLS
+//        glDisable(GL_CLIP_PLANE0);
+//        glDisable(GL_CLIP_PLANE1);
+//        glDisable(GL_CLIP_PLANE2);
+//        glDisable(GL_CLIP_PLANE3);
     }
 }
 

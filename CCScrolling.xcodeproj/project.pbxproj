@@ -521,12 +521,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ARCHS = armv7;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
 				PRODUCT_NAME = "CCScrolling-iOS";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -534,12 +536,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ARCHS = (
+					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
 				);
 				PRODUCT_NAME = "CCScrolling-iOS";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};

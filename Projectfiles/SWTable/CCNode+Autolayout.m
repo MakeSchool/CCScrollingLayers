@@ -89,7 +89,7 @@
 }
 - (void)layoutChildren {}
 - (void)layout {
-	if (isTransformDirty_ && isTransformGLDirty_ && isInverseDirty_) {
+	if (isTransformDirty_ && isInverseDirty_) {
 		[self layoutChildren];
 		if (grid_ && grid_.active) {
 			self.grid = [[grid_ class] gridWithSize:grid_.gridSize];
@@ -98,7 +98,7 @@
 	}
 }
 - (void)setNeedsLayout {
-	isTransformDirty_ = isTransformGLDirty_ = isInverseDirty_ = YES;
+	isTransformDirty_ = isInverseDirty_ = YES;
 }
 
 //added fix ****
