@@ -1,6 +1,6 @@
 //
 //  CCGestureRecognizer.h
-//  CCExtensions
+//  FreeScrolling
 //
 //  Created by Jerrod Putman on 7/29/11.
 //  Copyright 2011 Tiny Tim Games. All rights reserved.

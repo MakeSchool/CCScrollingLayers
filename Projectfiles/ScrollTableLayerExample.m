@@ -70,6 +70,7 @@ SWTableDataSourceWrapper* dataSource; //must be an instance variable
 //called when a cell is touched
 -(void)table:(SWTableView *)table cellTouched:(SWTableViewCell *)cell {
  //get the index # of the cell that was touched using cell.idx
+    LOG_EXPR(cell.idx);
 }
 
 @end

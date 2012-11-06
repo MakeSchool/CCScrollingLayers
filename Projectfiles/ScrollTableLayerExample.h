@@ -7,7 +7,6 @@
 //
 
 
-
 #import "cocos2d.h"
 #import "SWTableView.h"
 #import "SWMultiColumnTableView.h"
