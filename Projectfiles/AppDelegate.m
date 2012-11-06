@@ -18,11 +18,6 @@
 #endif
 }
 
--(id) alternateRootViewController
-{
-	return nil;
-}
-
 -(id) alternateView
 {
 	return nil;

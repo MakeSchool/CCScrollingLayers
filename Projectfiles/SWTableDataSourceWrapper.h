@@ -1,4 +1,4 @@
-6   //
+//
 //  SWTableViewDelegateWrapper.h
 //  Scrolling
 //

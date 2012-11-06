@@ -17,17 +17,13 @@ local config =
 	KKStartupConfig = 
 	{
 		-- load first scene from a class with this name, or from a Lua script with this name with .lua appended
-		FirstSceneClassName = "FreeScrollingLayerExample",
-
-		-- set the director type, and the fallback in case the first isn't available
-		DirectorType = DirectorType.DisplayLink,
-		DirectorTypeFallback = DirectorType.NSTimer,
+		FirstSceneClassName = "ScrollTableLayer",
 
 		MaxFrameRate = 60,
 		DisplayFPS = YES,
 
 		EnableUserInteraction = YES,
-		EnableMultiTouch = YES,
+		EnableMultiTouch = NO,
 
 		-- Render settings
 		DefaultTexturePixelFormat = TexturePixelFormat.RGBA8888,
@@ -37,16 +33,13 @@ local config =
 		GLViewNumberOfSamples = 0,
 
 		Enable2DProjection = NO,
-		EnableRetinaDisplaySupport = NO,--YES,
+		EnableRetinaDisplaySupport = YES,
 		EnableGLViewNodeHitTesting = NO,
 		EnableStatusBar = NO,
 
 		-- Orientation & Autorotation
-		DeviceOrientation = DeviceOrientation.Portrait,
-		AutorotationType = Autorotation.None,
-		ShouldAutorotateToLandscapeOrientations = NO,
-		ShouldAutorotateToPortraitOrientations = NO,
-		AllowAutorotateOnFirstAndSecondGenerationDevices = NO,
+		-- Kobold2D uses the supported orientations from the Target's Summary pane: http://cl.ly/2l132Z2f463H2O3r0M1O
+		-- (same as Info.plist key UISupportedInterfaceOrientations aka "Supported interface orientations")
 	
 		-- Ad setup
 		EnableAdBanner = NO,
@@ -62,7 +55,6 @@ local config =
 		-- Mac OS specific settings
 		AutoScale = NO,
 		AcceptsMouseMovedEvents = NO,
-		WindowFrame = RectMake(1024-640, 768-480, 640, 480),
 		EnableFullScreen = NO,
 	},
 }
