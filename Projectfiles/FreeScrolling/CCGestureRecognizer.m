@@ -175,7 +175,7 @@
 
 - (void)dealloc
 {
-	[[[CCDirector sharedDirector] openGLView] removeGestureRecognizer:gestureRecognizer];
+	[[[CCDirector sharedDirector] view] removeGestureRecognizer:gestureRecognizer];
 }
 
 

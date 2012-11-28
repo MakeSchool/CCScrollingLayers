@@ -26,10 +26,25 @@ You need to copy over the SWTable folder into your project.
 The ScrollTableLayer defines 2 protocols: the SWTableViewDelegate protocol and the SWTableViewDataSource protocol.
 SWTableViewDelegate handles the response to when a cell is touched.
 SWTableViewDataSource stores what is displayed in the table (any instance of CCNode).
-A DataSource class is already written (SWTableDataSourceWrapper). The class the creates the table needs to implement the Delegate protocol.
-For greater flexibility, you may choose to write your own class that implements the Data Source.
+A DataSource class is already written (SWTableDataSourceWrapper) that uses an array of CCNodes. The class the creates the table needs to implement the Delegate protocol.
+For greater flexibility and performance, you may choose to write your own class that implements the Data Source and creates it's own data directly.
 It is advisable to instantiate ScrollTableLayer, instead of subclassing it.
 
 A SWMultiColumnTableView class is also included which can be used to create multi-column tables.
 The setup is identical to setting up a normal table. You will need to call the setColCount:<# of columns> method.
 Make sure your cell size is small enough so that all the cells will fit in the screen.
+
+******
+Details on the internals of SWTableView:
+A container is added to the table. The table's size is the view size. The container size is the content size (all cells, including off-screen ones).
+
+The "offset" is essentially the position of the container. It is the distance from the bottom of the container to the bottom of the viewing layer (not the bottom of the screen, necessarily). The negative direction for the offset is scrolling the container up (for TopBottom fill).
+
+Scrolling/moving the container around is handled by "contentOffset" methods (there are several). 
+
+SWTableView implements SWScrollViewDelegate - this allows the scroll view code to call the scrollViewDidScroll method in SWTableView. SWTableView also holds references to the SWTableViewDataSource and SWTableViewDelegate.
+
+CellsUsed = cells visible. First object is at the top of the containers, last object is at the bottom. The most # of cells in this array is the max # of cells that fit in the view screen.
+CellsFreed = cells not visible ONLY during a bounce. The max # of cells here is the max number of cells hidden by the overscrolling/bounce effect.
+
+INSET_RATIO determined bounce amount

@@ -9,14 +9,45 @@
 #import "SWTableDataSourceWrapper.h"
 #import "SWTableViewCell.h"
 
+//Private class
+@interface SWTableViewNodeCell : SWTableViewCell {
+    CCNode *node;
+}
+@property (nonatomic, retain) CCNode *node;
+@end
+
+@implementation SWTableViewNodeCell
+@synthesize node;
+
+-(void)setNode:(CCNode *)s {
+    if (node) {
+        [self removeChild:node cleanup:YES];
+    }
+    s.anchorPoint = s.position = CGPointZero;
+    node = s;
+    [self addChild:node];
+}
+-(CCNode *)node {
+    return node;
+}
+-(void)reset {
+    [super reset];
+    if (node) {
+        [self removeChild:node cleanup:YES];
+    }
+    node = nil;
+}
+@end
+
 //Private class:
-@interface WrapperCell : SWTableViewCell
+@interface WrapperCell : SWTableViewNodeCell
 @property CGSize cellSize;
 @end
 
 @implementation WrapperCell
 @synthesize cellSize;
 @end
+
 
 //Public class:
 @implementation SWTableDataSourceWrapper
@@ -48,39 +79,31 @@
 
 //method for SWTableViewDataSource
 -(SWTableViewCell *)table:(SWTableView *)table cellAtIndex:(NSUInteger)index {
+    LOG_EXPR(index);
+    SWTableViewNodeCell *cell = [table dequeueCell];
+    if (!cell) {//|| cell.idx != index) { //index is a bit of a hack - fix later
+        LOG_EXPR(@"generate");
+        cell = [[WrapperCell alloc]init];
+        //cell.idx = index;
+    }
     
-    SWTableViewCell *cell = [table dequeueCell];
-    if (!cell) {
-        cell = [WrapperCell new];
         CCNode* node = [arrayOfNodes objectAtIndex:index];
-        if (node.parent==nil)
-        {
-            [cell addChild:node];
-        }
-        else
-        {
-            [node removeFromParentAndCleanup:YES];
-            [cell addChild:node];
-        }
-	}
+        cell.node = node;
+//        if (node.parent==nil)
+//        {
+//            [cell addChild:node];
+//        }
+//        else
+//        {
+//            [node removeFromParentAndCleanup:YES];
+//            [cell addChild:node];
+//        }
+	
     
     return cell;
     
     
 }
-
-//-(void) setCellSize:(CGSize)cellSze
-//{
-//    if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]
-//        && [[UIScreen mainScreen] scale] == 2.0)
-//    {
-//        //Retina
-//        cellSize=CGSizeMake(cellSze.width*2, cellSze.height*2);
-//    } else {
-//        // Not Retina
-//        cellSize=cellSze;
-//    }
-//}
 
 //method for SWTableViewDataSource
 -(NSUInteger)numberOfCellsInTableView:(SWTableView *)table {

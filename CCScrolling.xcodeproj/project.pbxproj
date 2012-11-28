@@ -190,14 +190,14 @@
 		D7E44CB31649BE5200DC7366 /* SWTable */ = {
 			isa = PBXGroup;
 			children = (
+				D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */,
+				D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */,
 				D7E44CB81649BE5200DC7366 /* SWMultiColumnTableView.h */,
 				D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */,
 				D7E44CBA1649BE5200DC7366 /* SWScrollView.h */,
 				D7E44CBB1649BE5200DC7366 /* SWScrollView.m */,
 				D7E44CBC1649BE5200DC7366 /* SWSorting.h */,
 				D7E44CBD1649BE5200DC7366 /* SWSorting.m */,
-				D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */,
-				D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */,
 				D7E44CC01649BE5200DC7366 /* SWTableView.h */,
 				D7E44CC11649BE5200DC7366 /* SWTableView.m */,
 				D7E44CC21649BE5200DC7366 /* SWTableViewCell.h */,

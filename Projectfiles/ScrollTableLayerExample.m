@@ -25,16 +25,22 @@ SWTableDataSourceWrapper* dataSource; //must be an instance variable
         
         //set up some test sprites
         NSMutableArray* arrayOfSprites = [[NSMutableArray alloc] init];
-        for(int i=0; i<10; i++)
+        for(int i=0; i<20; i++)
         {
             CCSprite *testSprite = [CCSprite spriteWithFile:@"mole.png"];
+            testSprite.scaleY=0.2;
+            CCLabelTTF* label = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"%i",i] fontName:@"Arial" fontSize:12];
+            label.scaleY=2;
+            label.anchorPoint=ccp(0,0);
+            [testSprite addChild:label];
             NSLog(@"%f",testSprite.contentSize.height);
             testSprite.anchorPoint = CGPointZero;
             [arrayOfSprites addObject:testSprite];
         }
         
         //Size of one cell in the table
-        CGSize cellSize = CGSizeMake(screenSize.width, 200);
+        CGSize cellSize = CGSizeMake(screenSize.width, 44);
+        screenSize.height = 387;
         
         //initialize the object that will feed data to our TableView
         dataSource = [[SWTableDataSourceWrapper alloc] initWithCellSize:cellSize andArrayOfCells:arrayOfSprites];
@@ -51,7 +57,7 @@ SWTableDataSourceWrapper* dataSource; //must be an instance variable
         //direction of the table.
         tableView.direction = SWScrollViewDirectionVertical;
         
-        tableView.position = ccp(0,0);
+        tableView.position = ccp(0,49);
         
         //SWTableViewFillTopDown fills the table with cell #1 at the top
         //BottomUp fills the table with cell #n (the last index) at the top
