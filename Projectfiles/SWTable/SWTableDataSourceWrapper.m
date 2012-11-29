@@ -84,6 +84,13 @@
     if (!cell) {//|| cell.idx != index) { //index is a bit of a hack - fix later
         LOG_EXPR(@"generate");
         cell = [[WrapperCell alloc]init];
+        
+        CCLabelTTF* test = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"%i",index] fontName:@"Arial" fontSize:12];
+        test.color=ccBLACK;
+        test.anchorPoint=ccp(0,0);
+        test.position = ccp(5,0);
+        [cell addChild:test z:10];
+        cell.idx = index;
         //cell.idx = index;
     }
     
