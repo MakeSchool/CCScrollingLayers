@@ -1,6 +1,8 @@
 CCScrollingLayers
 ==================================
 
+TODO: Update to cocos2d and Kobold2D versions 2.X
+
 cocos2D-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented)
 
 Examples created by Brian Chu for MakeGamesWithUs.
