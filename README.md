@@ -1,9 +1,13 @@
 CCScrollingLayers
 ==================================
 
-TODO: Update to cocos2d and Kobold2D versions 2.X
+TODO: 
 
-cocos2D-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented)
+1. Merge FreeScrollingLayer and ScrollTableLayer to use the same underlying free scrolling layer.
+
+2. Test (and fix) ScrollTableLayer for horizontal scrolling and for different fill orders (TopDown vs. others).
+
+cocos2D-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented). Compatible with Kobold2D and cocos2d versions 2.X
 
 Examples created by Brian Chu for MakeGamesWithUs.
 Modifications by Brian Chu (see individual file comments)
