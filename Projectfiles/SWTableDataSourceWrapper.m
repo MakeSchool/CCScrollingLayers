@@ -51,6 +51,7 @@
 
 //Public class:
 @implementation SWTableDataSourceWrapper
+@synthesize tableContentSize, hasVariableCellSize;
 @synthesize cellSize;
 @synthesize arrayOfNodes;
 
@@ -78,21 +79,20 @@
 }
 
 //method for SWTableViewDataSource
--(SWTableViewCell *)table:(SWTableView *)table cellAtIndex:(NSUInteger)index {
+-(SWTableViewCell *)tableView:(SWTableView *)table cellAtIndex:(NSUInteger)index {
     LOG_EXPR(index);
     SWTableViewNodeCell *cell = [table dequeueCell];
-    if (!cell) {//|| cell.idx != index) { //index is a bit of a hack - fix later
-        LOG_EXPR(@"generate");
+    if (!cell) {
         cell = [[WrapperCell alloc]init];
-        
-        CCLabelTTF* test = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"%i",index] fontName:@"Arial" fontSize:12];
-        test.color=ccBLACK;
-        test.anchorPoint=ccp(0,0);
-        test.position = ccp(5,0);
-        [cell addChild:test z:10];
-        cell.idx = index;
-        //cell.idx = index;
     }
+    
+    [cell removeAllChildren];
+    CCLabelTTF* test = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"%i",index] fontName:@"Arial" fontSize:12];
+    test.color=ccBLACK;
+    test.anchorPoint=ccp(0,0);
+    test.position = ccp(5,0);
+    [cell addChild:test z:10];
+    cell.idx = index;
     
         CCNode* node = [arrayOfNodes objectAtIndex:index];
         cell.node = node;
@@ -115,6 +115,11 @@
 //method for SWTableViewDataSource
 -(NSUInteger)numberOfCellsInTableView:(SWTableView *)table {
     return [arrayOfNodes count];
+}
+
+-(CGSize)tableView:(SWTableView *)table cellSizeForIndex:(NSUInteger)index;
+{
+    return cellSize;
 }
 
 @end

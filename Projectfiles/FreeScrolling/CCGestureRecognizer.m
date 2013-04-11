@@ -212,7 +212,7 @@ static char CCNodeGestureRecognizerAdditionsKey;
 	}
 	[gestureRecognizers addObject:gestureRecognizer];
 	
-	[[[CCDirector sharedDirector] openGLView] addGestureRecognizer:gestureRecognizer.gestureRecognizer];
+	[[CCDirector sharedDirector].view addGestureRecognizer:gestureRecognizer.gestureRecognizer];
 }
 
 
@@ -223,7 +223,7 @@ static char CCNodeGestureRecognizerAdditionsKey;
 	[gestureRecognizers removeObject:gestureRecognizer];
 	
 	if(gestureRecognizer.node == self)
-		[[[CCDirector sharedDirector] openGLView] removeGestureRecognizer:gestureRecognizer.gestureRecognizer]; 
+		[[CCDirector sharedDirector].view removeGestureRecognizer:gestureRecognizer.gestureRecognizer];
 
 	gestureRecognizer.node = nil;
 }
@@ -231,7 +231,7 @@ static char CCNodeGestureRecognizerAdditionsKey;
 
 - (BOOL)isPointInArea:(CGPoint)pt
 {
-	if(visible_ == NO)
+	if(_visible == NO)
 		return NO;
 	
 	pt = [self convertToNodeSpace:pt];
@@ -254,7 +254,7 @@ static char CCNodeGestureRecognizerAdditionsKey;
 
 	BOOL rslt = NO;
 	CCNode *child;
-	CCARRAY_FOREACH(children_, child)
+	CCARRAY_FOREACH(_children, child)
 	{
 		if([child isNodeInTreeTouched:pt])
 		{

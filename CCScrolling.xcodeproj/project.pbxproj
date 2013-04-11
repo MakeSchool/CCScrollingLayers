@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32FA8B6171669C60057A319 /* SWTableDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D32FA8B5171669C60057A319 /* SWTableDataSourceWrapper.m */; };
 		D7E44CC41649BE5200DC7366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CA91649BE5200DC7366 /* AppDelegate.m */; };
 		D7E44CC51649BE5200DC7366 /* CCGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CAC1649BE5200DC7366 /* CCGestureRecognizer.m */; };
 		D7E44CC61649BE5200DC7366 /* FreeScrollingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CAE1649BE5200DC7366 /* FreeScrollingLayer.m */; };
@@ -15,7 +16,6 @@
 		D7E44CCB1649BE5200DC7366 /* SWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */; };
 		D7E44CCC1649BE5200DC7366 /* SWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBB1649BE5200DC7366 /* SWScrollView.m */; };
 		D7E44CCD1649BE5200DC7366 /* SWSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBD1649BE5200DC7366 /* SWSorting.m */; };
-		D7E44CCE1649BE5200DC7366 /* SWTableDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */; };
 		D7E44CCF1649BE5200DC7366 /* SWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CC11649BE5200DC7366 /* SWTableView.m */; };
 		D7E44CD01649BE5200DC7366 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E44CC31649BE5200DC7366 /* SWTableViewCell.m */; };
 		D7E44CD61649BE6400DC7366 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E44CD11649BE6400DC7366 /* background.png */; };
@@ -64,6 +64,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D32FA8B4171669C60057A319 /* SWTableDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableDataSourceWrapper.h; sourceTree = "<group>"; };
+		D32FA8B5171669C60057A319 /* SWTableDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableDataSourceWrapper.m; sourceTree = "<group>"; };
 		D7E44CA81649BE5200DC7366 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7E44CA91649BE5200DC7366 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7E44CAB1649BE5200DC7366 /* CCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGestureRecognizer.h; sourceTree = "<group>"; };
@@ -80,8 +82,6 @@
 		D7E44CBB1649BE5200DC7366 /* SWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScrollView.m; sourceTree = "<group>"; };
 		D7E44CBC1649BE5200DC7366 /* SWSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSorting.h; sourceTree = "<group>"; };
 		D7E44CBD1649BE5200DC7366 /* SWSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSorting.m; sourceTree = "<group>"; };
-		D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableDataSourceWrapper.h; sourceTree = "<group>"; };
-		D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableDataSourceWrapper.m; sourceTree = "<group>"; };
 		D7E44CC01649BE5200DC7366 /* SWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableView.h; sourceTree = "<group>"; };
 		D7E44CC11649BE5200DC7366 /* SWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableView.m; sourceTree = "<group>"; };
 		D7E44CC21649BE5200DC7366 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
@@ -190,8 +190,6 @@
 		D7E44CB31649BE5200DC7366 /* SWTable */ = {
 			isa = PBXGroup;
 			children = (
-				D7E44CBE1649BE5200DC7366 /* SWTableDataSourceWrapper.h */,
-				D7E44CBF1649BE5200DC7366 /* SWTableDataSourceWrapper.m */,
 				D7E44CB81649BE5200DC7366 /* SWMultiColumnTableView.h */,
 				D7E44CB91649BE5200DC7366 /* SWMultiColumnTableView.m */,
 				D7E44CBA1649BE5200DC7366 /* SWScrollView.h */,
@@ -299,6 +297,8 @@
 				D7E44CB01649BE5200DC7366 /* FreeScrollingLayerExample.m */,
 				D7E44CB11649BE5200DC7366 /* ScrollTableLayerExample.h */,
 				D7E44CB21649BE5200DC7366 /* ScrollTableLayerExample.m */,
+				D32FA8B4171669C60057A319 /* SWTableDataSourceWrapper.h */,
+				D32FA8B5171669C60057A319 /* SWTableDataSourceWrapper.m */,
 				D7E44CB31649BE5200DC7366 /* SWTable */,
 				D7E44CA81649BE5200DC7366 /* AppDelegate.h */,
 				D7E44CA91649BE5200DC7366 /* AppDelegate.m */,
@@ -387,7 +387,7 @@
 		DCC1A0D813A94EC0005BD75D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = DCC1A0DB13A94EC0005BD75D /* Build configuration list for PBXProject "CCScrolling" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -463,9 +463,9 @@
 				D7E44CCB1649BE5200DC7366 /* SWMultiColumnTableView.m in Sources */,
 				D7E44CCC1649BE5200DC7366 /* SWScrollView.m in Sources */,
 				D7E44CCD1649BE5200DC7366 /* SWSorting.m in Sources */,
-				D7E44CCE1649BE5200DC7366 /* SWTableDataSourceWrapper.m in Sources */,
 				D7E44CCF1649BE5200DC7366 /* SWTableView.m in Sources */,
 				D7E44CD01649BE5200DC7366 /* SWTableViewCell.m in Sources */,
+				D32FA8B6171669C60057A319 /* SWTableDataSourceWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
 		};
@@ -544,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
 		};

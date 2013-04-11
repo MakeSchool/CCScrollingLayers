@@ -29,10 +29,6 @@ SWTableDataSourceWrapper* dataSource; //must be an instance variable
         {
             CCSprite *testSprite = [CCSprite spriteWithFile:@"mole.png"];
             testSprite.scaleY=0.2;
-            CCLabelTTF* label = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"%i",i] fontName:@"Arial" fontSize:12];
-            label.scaleY=2;
-            label.anchorPoint=ccp(0,0);
-            [testSprite addChild:label];
             NSLog(@"%f",testSprite.contentSize.height);
             testSprite.anchorPoint = CGPointZero;
             [arrayOfSprites addObject:testSprite];

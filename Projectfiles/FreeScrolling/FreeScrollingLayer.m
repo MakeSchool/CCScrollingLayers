@@ -705,15 +705,15 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
 // Override for the base CCNode visit method.
 - (void)visit
 {
-	if(!visible_)
+	if(!_visible)
 		return;
 	
 	glPushMatrix();
 	
-	if(grid_
-	   && grid_.active)
+	if(_grid
+	   && _grid.active)
 	{
-		[grid_ beforeDraw];
+		[_grid beforeDraw];
 		[self transformAncestors];
 	}
 	
@@ -721,7 +721,7 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
 	
 	[self beforeDraw];
 	
-	for(CCNode *child in children_)
+	for(CCNode *child in _children)
 	{
 		if(child.zOrder < 0)
 			[child visit];
@@ -731,7 +731,7 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
 	
 	[self draw];
 	
-	for(CCNode * child in children_)
+	for(CCNode * child in _children)
 	{
 		if(child.zOrder >= 0)
 			[child visit];
@@ -739,9 +739,9 @@ const float FreeScrollingLayerDecelerationRateFast = 0.85f;
 	
 	[self afterDraw];
 	
-	if(grid_
-	   && grid_.active)
-		[grid_ afterDraw:self];
+	if(_grid
+	   && _grid.active)
+		[_grid afterDraw:self];
 	
 	glPopMatrix();
 }

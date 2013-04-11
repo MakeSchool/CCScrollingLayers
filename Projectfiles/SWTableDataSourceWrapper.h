@@ -11,7 +11,6 @@
 
 //protocol declaration
 @interface SWTableDataSourceWrapper: CCNode <SWTableViewDataSource>
-{}
 @property (nonatomic) CGSize cellSize;
 @property (nonatomic) NSArray* arrayOfNodes;
 
