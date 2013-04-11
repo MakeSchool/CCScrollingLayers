@@ -1,19 +1,25 @@
 CCScrollingLayers
 ==================================
 
-TODO: 
+**TODO: **
 
 1. Merge FreeScrollingLayer and ScrollTableLayer to use the same underlying free scrolling layer.
 
 2. Test (and fix) ScrollTableLayer for horizontal scrolling and for different fill orders (TopDown vs. others).
 
-cocos2D-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented). Compatible with Kobold2D and cocos2d versions 2.X
+## Overview
+
+cocos2d-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented). Compatible with Kobold2D and cocos2d versions 2.X.
+
+Used in MakeGamesWithUs's CCGhost SDK example project (http://www.makegameswith.us/sdk/).
 
 Examples created by Brian Chu for MakeGamesWithUs.
 Modifications by Brian Chu (see individual file comments)
 Parts of original source created by Sangwoo Im and Jerrod Putnam.
 
 For both projects, read the example files!
+
+### FreeScrollingLayer
 
 FreeScrollingLayer Example shows you how to make a layer that pans (moves) in 2D and which has pinch zooming and double-tap zooming.
 There is an optional FreeScrollingLayerDelegate protocol that can be implemented (see comments in the example).
@@ -24,6 +30,8 @@ instead of instantiating it alone (for example, having a "Battlefield" class inh
 The FreeScrollingLayer class makes use of ccTouchBegan and the pinch, pan, and double tap gestures.
 
 ******
+
+### ScrollTableLayer
 
 ScrollTableLayerExample shows you how to make a layer that adds a vertically or horizontally scrolling list.
 You need to copy over the SWTable folder into your project.
@@ -40,6 +48,9 @@ The setup is identical to setting up a normal table. You will need to call the s
 Make sure your cell size is small enough so that all the cells will fit in the screen.
 
 ******
+
+##### Internals
+
 Details on the internals of SWTableView:
 A container is added to the table. The table's size is the view size. The container size is the content size (all cells, including off-screen ones).
 
