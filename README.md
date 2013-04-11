@@ -1,12 +1,11 @@
-Cocos2D-Scrolling-Layers-and-Lists
+CCScrollingLayers
 ==================================
 
-Cocos2D versions of scrolling layers and scrolling lists.
+cocos2D-iphone versions of a scrolling layer and a scrolling list, analogous to a UIScrollView and a UITableView (though many features of UIScrollViews and UITableViews are not implemented)
 
-Examples created by Brian Chu
+Examples created by Brian Chu for MakeGamesWithUs.
 Modifications by Brian Chu (see individual file comments)
 Parts of original source created by Sangwoo Im and Jerrod Putnam.
-MakeGamesWith.Us
 
 For both projects, read the example files!
 
